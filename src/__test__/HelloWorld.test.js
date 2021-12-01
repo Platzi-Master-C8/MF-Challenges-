@@ -9,7 +9,7 @@ let wrapper
 describe('Hello world component', () => {
   wrapper = shallow(<HelloWorld/>)
 
-  it('new Hello world component is rendered ', () => {
+  it('New Hello world component is rendered ', () => {
     expect(wrapper).toBeDefined()
   })
 })
