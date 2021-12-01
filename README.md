@@ -17,7 +17,6 @@ Once that you have cloned the repo and that you have installed the dependencies,
 yarn test or npm run test.
 
 ## How can I make changes in the repo
-
 The branches are the next:
 Master  ----- For production purposes.
 development ----- For Qa testing purposes
@@ -25,6 +24,10 @@ your-branch ----- One branch should be created from development for every task o
 
 So, every that want to make changes in this project, you will need to pull the latest changes from the development branch and create a new branch from development (you can name the branch as you want); once the changes be made, you will need to create a PR pointing to development with your new changes.
 
+## How can I make changes in the repo
+In order to can lint the app you just need to run the next command:
+
+yarn lint or npm run lint
 ## License
 MIT
 

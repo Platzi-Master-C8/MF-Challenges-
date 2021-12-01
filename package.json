@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-cli serve --open --mode development",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
     "babel-loader": "^8.2.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "html-loader": "^3.0.1",
@@ -34,6 +36,8 @@
     "webpack-dev-server": "^4.6.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.4.2",
     "css-loader": "^6.5.1",
     "enzyme": "^3.11.0",
@@ -43,6 +47,23 @@
     "mini-css-extract-plugin": "^2.4.5",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
+    "standard": "^16.0.4",
     "style-loader": "^3.3.1"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "after",
+      "afterAll",
+      "afterEach",
+      "before",
+      "beforeAll",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it",
+      "jest",
+      "spyOn"
+    ]
   }
 }
