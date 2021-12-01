@@ -10,7 +10,7 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx']
   },
   module: {
     rules: [
@@ -18,16 +18,16 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-        },
+          loader: 'babel-loader'
+        }
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: 'html-loader',
-          },
-        ],
+            loader: 'html-loader'
+          }
+        ]
       },
       {
         test: /\.s[ac]ss$/i,
@@ -35,23 +35,23 @@ module.exports = {
           'style-loader',
           'css-loader',
           'sass-loader'
-        ],
-      },
-    ],
+        ]
+      }
+    ]
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html',
+      template: './public/index.html'
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    }),
+    })
   ],
-  devServer:{
+  devServer: {
     static: path.join(__dirname, 'dist'),
     compress: true,
     historyApiFallback: true,
     port: 3000,
-    open: true,
+    open: true
   }
 }
