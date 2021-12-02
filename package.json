@@ -1,48 +1,50 @@
 {
-  "name": "MF-Challenges-",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-cli serve --open --mode development",
-    "build": "webpack --mode production",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Platzi-Master-C8/MF-Challenges-.git"
-  },
-  "keywords": [],
-  "author": "Callenges Squad",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Platzi-Master-C8/MF-Challenges-/issues"
-  },
-  "homepage": "https://github.com/Platzi-Master-C8/MF-Challenges-#readme",
-  "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "html-loader": "^3.0.1",
-    "html-webpack-plugin": "^5.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
-  },
-  "devDependencies": {
-    "babel-jest": "^27.4.2",
-    "css-loader": "^6.5.1",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.4.2",
-    "mini-css-extract-plugin": "^2.4.5",
-    "sass": "^1.43.5",
-    "sass-loader": "^12.3.0",
-    "style-loader": "^3.3.1"
-  }
+ "name": "MF-Challenges-",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "start": "webpack-cli serve --open --mode development",
+  "build": "webpack --mode production",
+  "test": "jest"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Platzi-Master-C8/MF-Challenges-.git"
+ },
+ "keywords": [],
+ "author": "Challenges Squad",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/Platzi-Master-C8/MF-Challenges-/issues"
+ },
+ "homepage": "https://github.com/Platzi-Master-C8/MF-Challenges-#readme",
+ "dependencies": {
+  "@babel/core": "^7.16.0",
+  "@babel/runtime": "^7.16.3",
+  "@babel/preset-env": "^7.16.4",
+  "@babel/preset-react": "^7.16.0",
+  "babel-loader": "^8.2.3",
+  "babel-plugin-transform-class-properties": "^6.24.1",
+  "html-loader": "^3.0.1",
+  "html-webpack-plugin": "^5.5.0",
+  "react": "^17.0.2",
+  "react-dom": "^17.0.2",
+  "webpack": "^5.64.4",
+  "webpack-cli": "^4.9.1",
+  "webpack-dev-server": "^4.6.0"
+ },
+ "devDependencies": {
+  "@babel/plugin-transform-runtime": "^7.16.4",
+  "babel-jest": "^27.4.2",
+  "css-loader": "^6.5.1",
+  "enzyme": "^3.11.0",
+  "enzyme-adapter-react-16": "^1.15.6",
+  "identity-obj-proxy": "^3.0.0",
+  "jest": "^27.4.2",
+  "mini-css-extract-plugin": "^2.4.5",
+  "sass": "^1.43.5",
+  "sass-loader": "^12.3.0",
+  "style-loader": "^3.3.1"
+ }
 }
