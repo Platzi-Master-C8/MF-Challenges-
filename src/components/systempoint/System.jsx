@@ -9,18 +9,18 @@ class System extends Component {
           this.state = { data: [] };
         }
       
-        async componentDidMount() {
-          const response = await fetch(`http://localhost:3000/data`);
-          const json = await response.json();
-          this.setState({ data: json });
-        }
+        // async componentDidMount() {
+        //   const response = await fetch(`http://localhost:3000/data`);
+        //   const json = await response.json();
+        //   this.setState({ data: json });
+        // }
     
 
     render() {
         return (
             <div className="container">
                 <div className="first-circle">
-                        <p>{this.state.data.points}</p>
+                        <p>Points</p>
                 </div>
                 <p>Points Obtained</p>
                 <div className="second-circle">

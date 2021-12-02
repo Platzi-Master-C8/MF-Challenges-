@@ -1,5 +1,5 @@
 import React from "react";
-import '../components/systempoint/System';
+import System from "../components/systempoint/System";
 
 const App = () => <System />
 
