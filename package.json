@@ -4,7 +4,7 @@
  "description": "",
  "main": "index.js",
  "scripts": {
-  "start": "webpack-cli serve --open --mode development",
+  "start": "webpack serve --open",
   "build": "webpack --mode production",
   "test": "jest"
  },

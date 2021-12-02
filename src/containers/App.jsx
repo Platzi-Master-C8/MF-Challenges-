@@ -1,6 +1,5 @@
 import React from "react";
-import '../styles/global.scss';
-import System from "./sections/System";
+import '../components/systempoint/System';
 
 const App = () => <System />
 
