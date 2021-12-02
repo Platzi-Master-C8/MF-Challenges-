@@ -1,6 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from '../src/containers/App';
-import global from '../src/styles/global.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "../src/components/App";
 
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
