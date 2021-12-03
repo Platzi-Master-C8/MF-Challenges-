@@ -1,13 +1,12 @@
 import React from "react";
-import '../styles/sideMenu.scss';
-import Logo from '../icons/LogoPlataforma1.png';
-import Logo1 from '../icons/section1.svg';
-import Logo2 from '../icons/section2.svg';
-import Logo3 from '../icons/section3.svg';
-import Logo4 from '../icons/section4.svg';
-import Logo5 from '../icons/section5.svg';
-import Logo6 from '../icons/section6.svg';
-import Avatar from '../icons/Sin avatar.svg';
+import Logo from '../../icons/LogoPlataforma1.png';
+import Logo1 from '../../icons/section1.svg';
+import Logo2 from '../../icons/section2.svg';
+import Logo3 from '../../icons/section3.svg';
+import Logo4 from '../../icons/section4.svg';
+import Logo5 from '../../icons/section5.svg';
+import Logo6 from '../../icons/section6.svg';
+import Avatar from '../../icons/Sin avatar.svg';
 
 const Header = () => {
     return (

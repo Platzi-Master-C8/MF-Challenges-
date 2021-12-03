@@ -22,6 +22,10 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 //Project Colors
 
 $gradientePrincipal: linear-gradient(90deg, rgba(95, 100, 255, 0.7) 0%, rgba(174, 78, 255, 0.85) 100%);
@@ -31,6 +35,7 @@ $colorHover: rgba(85, 91, 255, 0.79);
 
 //Components Styles:
 
-@import '../components/systempoint/System';
-@import '../components/header/Header';
-@import '../components/navbar/Navbar';
+@import '../components/systempoint/System.scss';
+@import '../components/header/Header.scss';
+@import '../components/navbar/Navbar.scss';
+@import '../components/grid-container/Container';
