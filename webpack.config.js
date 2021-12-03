@@ -36,7 +36,11 @@ module.exports = {
 					"css-loader",
 					"sass-loader",
 				],
-			}
+      },
+      {
+        test: /\.png|.svg/,
+        type: 'asset/resource'
+      }
 		]
 	},
 	plugins: [

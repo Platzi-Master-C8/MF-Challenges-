@@ -6,7 +6,8 @@
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "start": "webpack serve --open",
-  "build": "webpack --mode production"
+  "build": "webpack --mode production",
+  "dev": "webpack --mode development"
  },
  "repository": {
   "type": "git",
@@ -34,12 +35,12 @@
   "webpack": "^5.64.4",
   "webpack-cli": "^4.9.1",
   "webpack-dev-server": "^4.6.0"
- },
- "devDependencies": {
+  },
+  "devDependencies": {
   "css-loader": "^6.5.1",
   "mini-css-extract-plugin": "^2.4.5",
   "sass": "^1.44.0",
   "sass-loader": "^12.3.0",
   "style-loader": "^3.3.1"
- }
+  }
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "../src/components/App";
+import Header from "../src/components/Header.jsx";
+import NavBar from "../src/components/navBar.jsx";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<Header />, document.getElementById("Header"));
+ReactDOM.render(<NavBar />, document.getElementById("NavBar"));
