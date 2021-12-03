@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid $colorIcon;
+  &-logo img {
+    width: 139px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 44px;
+  }
+  &-navBar {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+  }
+  &-navBar a {
+    width: 140px;
+    height: 60px;
+  }
+  &-navBar a img {
+    width: 140px;
+    height: 60px;
+  }
+  &-navBar a img:hover{
+    background: $gradientePrincipal
+  }
+  &-photo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 54px;
+    margin-top: 25px;
+    margin-left: 16px;
+  }
+}
