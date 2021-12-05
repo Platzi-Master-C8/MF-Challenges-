@@ -34,9 +34,11 @@ $colorIcon: #A779FF;
 $colorHover: rgba(85, 91, 255, 0.79);
 
 
+
 //Components Styles:
 
 @import '../components/systempoint/System.scss';
 @import '../components/header/Header.scss';
 @import '../components/navbar/Navbar.scss';
 @import '../components/container/Container';
+@import '../components/user-graph/user-graph.scss'
