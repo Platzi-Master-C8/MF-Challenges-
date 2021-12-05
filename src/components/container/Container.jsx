@@ -2,6 +2,7 @@ import React from "react";
 import System from "../systempoint/System";
 import Header from "../header/Header";
 import Navbar from "../navbar/Navbar";
+import StreakAndRank from "../StreakAndRank/StreakAndRank";
 
 const Container = () => {
     return (
@@ -10,9 +11,7 @@ const Container = () => {
                 <Header />
             </div>
             <div className="item-minicards">
-            <div className="rank"></div>
-            <div className="completed"></div>
-            <div className="streak"></div>
+            <StreakAndRank />
             </div>
             <div className="item-navbar">
                 <Navbar />

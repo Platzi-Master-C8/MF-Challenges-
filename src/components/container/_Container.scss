@@ -25,16 +25,9 @@
 
 .item-minicards {
     grid-area: minicards;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-self: center;
 }
 
-.completed, .rank, .streak {
-    width: 160px;
-    height: 160px;
-    background-color:red;
-}
 
 .item-system {
     grid-area: systemp;
