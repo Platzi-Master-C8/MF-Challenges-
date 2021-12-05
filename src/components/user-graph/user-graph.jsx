@@ -1,6 +1,5 @@
 import React from 'react';
-
-import {Chart as ChartJS,} from 'chart.js/auto';//no borrar XD
+import {Chart as ChartJS,} from 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
 import data from '../../../data.json';
 
@@ -8,8 +7,8 @@ const {activity} = data;
 
 const UserGraph = () => {
   return (
-    <div className='container'>
-      <Bar className='container-graph'
+    <div className='container-graph'>
+      <Bar className='graph'
         data={{
           labels: activity.map(item => new Intl.DateTimeFormat('es-MX', {month: 'long', day: 'numeric'}).format(new Date(item.day))),
             datasets: [
@@ -47,14 +46,14 @@ const UserGraph = () => {
               backgroundColor: 'rgba(85, 91, 255, 1)',
               position: 'average',
               titleFont: {
-                size:20,
+                size: 20,
               },
               titleAlign: 'center',
               displayColors: false,
               bodyFont: {
                 size:20,
               },
-              padding:10,
+              padding: 10,
             },
           },
           elements: {

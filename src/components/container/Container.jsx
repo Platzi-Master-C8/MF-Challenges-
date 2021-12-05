@@ -3,6 +3,7 @@ import System from "../systempoint/System";
 import Header from "../header/Header";
 import Navbar from "../navbar/Navbar";
 import StreakAndRank from "../StreakAndRank/StreakAndRank";
+import UserGraph from "../user-graph/user-graph";
 
 const Container = () => {
     return (
@@ -19,9 +20,15 @@ const Container = () => {
             <div className="item-system">
                 <System />
             </div>
-            <div className="item-achievements"></div>
-            <div className="item-graph"></div>
-            <div className="item-footer"></div>
+            <div className="item-achievements">
+                
+            </div>
+            <div className="item-graph">
+                <UserGraph />
+            </div>
+            <div className="item-footer">
+
+            </div>
         </div>
     )
 }
