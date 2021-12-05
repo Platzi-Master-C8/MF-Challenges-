@@ -2,11 +2,9 @@ import React from 'react'
 import rankLogo from '../../icons/rank.svg'
 import doneLogo from '../../icons/done.svg'
 import streakLogo from '../../icons/streak.svg'
-import '../../styles/StreakAndRank.scss'
 
-function StreakAndRank () {
+const StreakAndRank = () => {
   return (
-    <>
       <div className='main_container'>
 
         <div className='step__container'>
@@ -27,8 +25,7 @@ function StreakAndRank () {
           <p className='streak_button'>Current streak</p>
         </div>
       </div>
-    </>
   )
 }
 
-export default StreakAndRank
+export default StreakAndRank;
