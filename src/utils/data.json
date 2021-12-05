@@ -1,0 +1,62 @@
+{
+    "id": 1,
+    "name": "John Doe",
+    "points": 99,
+    "challenges": {
+        "completed": 12,
+        "streak": 3
+    },
+    "ranks": {
+        "current": {
+            "name": "Active",
+            "required_points": 0
+        },
+        "next": {
+            "name": "Proactive",
+            "required_points": 101
+        }
+    },
+    "achievements": [
+        {
+            "name": "Sprint",
+            "description": "Sprint description",
+            "badge": "Some image",
+            "earned": true
+        },
+        {
+            "name": "One small step",
+            "description": "One small step description",
+            "badge": "Some image",
+            "earned": true
+        },
+        {
+            "name": "5 days of code",
+            "description": "5 days of code description",
+            "badge": "Some image",
+            "earned": false
+        },
+        {
+            "name": "Half Done",
+            "description": "Half Done description",
+            "badge": "Some image",
+            "earned": true
+        }
+    ],
+    "activity": [
+        {
+            "2021-11-11": 2
+        },
+        {
+            "2021-11-12": 2
+        },
+        {
+            "2021-11-13": 5
+        },
+        {
+            "2021-11-14": 0
+        },
+        {
+            "2021-11-15": 3
+        }
+    ]
+}
