@@ -1,7 +1,4 @@
-import React from 'react';
-import { Component } from 'react';
-
-
+import React, { Component } from 'react'
 
 const System = () =>{
         return (
@@ -18,4 +15,4 @@ const System = () =>{
         )
     }
 
-export default System;
+export default System
