@@ -7,9 +7,9 @@ import UserGraph from '../user-graph/user-graph';
 import Achievements from '../achievements/Achievements';
 import useInitialState from '../../hooks/useInitialState';
 
-const API = 'http://localhost:3500/data';
+const API = 'http://localhost:3500';
 
-const Container = () => {
+const Container =  () => {
   const data = useInitialState(API);
 
   console.log(data);
