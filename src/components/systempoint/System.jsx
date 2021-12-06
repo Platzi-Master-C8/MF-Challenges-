@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
+import nextRank from '../../utils/nextRank.js';
 
-const System = () => {
+const System = ({ data }, { ranks }) => {
   return (
-    <div className='container'>
-      <div className='first-circle'>
+    <div className="container">
+      <div className="first-circle">
         <p>Points</p>
       </div>
-      <p>Points Obtained</p>
-      <div className='second-circle'>
-        <p>101</p>
+      <p>{data.points}</p>
+      <div className="second-circle">
+        <p>{ nextRank(data.points, ranks) }</p>
       </div>
       <p>Next Rank</p>
     </div>
-  )
-}
+  );
+};
 
-export default System
+export default System;

@@ -3,9 +3,8 @@ import { Chart as ChartJS } from 'chart.js/auto'
 import { Bar } from 'react-chartjs-2'
 import data from '../../../data.json'
 
-const { activity } = data
 
-const UserGraph = () => {
+const UserGraph = ({activity}) => {
   return (
     <div className='container-graph'>
       <Bar
