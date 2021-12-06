@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "test": "jest",
     "lint": "standard --fix",
-    "lint:prettier": "prettier --write src/"
+    "lint:prettier": "prettier --write src/",
+    "server": "json-server --watch data.json -p 3500"
   },
   "repository": {
     "type": "git",
