@@ -3,7 +3,7 @@ import SectionGoals from '../../utils/SectionGoals';
 import Alert from '../../utils/Alert';
 
 
-const Achievements = ({goals}) => {
+const Achievements = ({ goals }) => {
   return (
     <main className="main">
       <section className="goals-wrapper">

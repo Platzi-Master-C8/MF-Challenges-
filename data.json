@@ -11,15 +11,15 @@
       {
         "current": "Active",
         "required_points": 0
-        },
-        {
+      },
+      {
         "next": "Proactive",
         "required_points": 101
-        },
-        {
+      },
+      {
         "next": "Efficient",
         "required_points": 201
-        }  
+      }
     ],
     "achievements": [
       {

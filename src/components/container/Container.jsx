@@ -5,32 +5,34 @@ import Navbar from '../navbar/Navbar';
 import StreakAndRank from '../StreakAndRank/StreakAndRank';
 import UserGraph from '../user-graph/user-graph';
 import Achievements from '../achievements/Achievements';
-import useInitialState from '../../hooks/useInitialState';
+import useGetData from '../../hooks/useGetData';
 
-const API = 'http://localhost:3500';
+const API = 'http://localhost:3500/data';
 
-const Container =  () => {
-  const data = useInitialState(API);
-
-  console.log(data);
+const Container = () => {
+  const Data = useGetData(API);
 
   return (
     <div className="grid-container">
+      {/* <div className="item-system">
+        <System data={Data} ranks={Data.ranks} />
+      </div>
       <div className="item-header">
         <Header />
-      </div>
+      </div> */}
       <div className="item-minicards">
-        <StreakAndRank ranks={data.ranks} challenges={data.challenges} />
+        <StreakAndRank ranks={Data.ranks} challenges={Data.challenges} />
       </div>
-      <div className="item-navbar">
+      {/* <div className="item-navbar">
         <Navbar />
       </div>
-      <div className="item-system">{/* <System data={data} ranks={data.ranks} /> */}</div>
-      <div className="item-achievements">{/* <Achievements goals={data.achievements} /> */}</div>
-      <div className="item-graph">{/* <UserGraph activity={data.activity} /> */}</div>
-      <div className="item-footer" />
+      <div className="item-achievements"><Achievements goals={Data.achievements} /></div>
+      <div className="item-graph">
+        <UserGraph activity={Data.activity} />
+        </div> */}
+      <div className="item-footer"></div>
     </div>
   );
 };
 
-export default Container
+export default Container;
