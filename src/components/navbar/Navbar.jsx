@@ -7,11 +7,15 @@ import Tasks from '../../icons/Tasks.svg'
 import Profile from '../../icons/profile.svg'
 import datos from '../../../data.json'
 
+
 const { data } = datos;
+
+
 
 const NavBar = () => {
   return (
-    <aside className='navBar'>
+    <div className="item-navbar">
+      <aside className='navBar'>
       <div className='navBar-user'>
         <a href='#'> { data.name } </a>
         <img src={Avatar} alt='' />
@@ -36,6 +40,7 @@ const NavBar = () => {
         </ul>
       </div>
     </aside>
+    </div>
   )
 }
 

@@ -8,7 +8,8 @@ const UserGraph = ({ activity }) => {
   if (activity) {
     
     return (
-      <div className='container-graph'>
+      <div className="item-graph">
+        <div className='container-graph'>
         <Bar
           className='graph'
           data={{
@@ -84,6 +85,7 @@ const UserGraph = ({ activity }) => {
             }
           }}
         />
+      </div>
       </div>
     )
 
