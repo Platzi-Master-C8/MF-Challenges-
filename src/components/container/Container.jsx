@@ -14,22 +14,24 @@ const Container = () => {
 
   return (
     <div className="grid-container">
-      {/* <div className="item-system">
+      <div className="item-system">
         <System data={Data} ranks={Data.ranks} />
       </div>
       <div className="item-header">
         <Header />
-      </div> */}
+      </div>
       <div className="item-minicards">
         <StreakAndRank ranks={Data.ranks} challenges={Data.challenges} />
       </div>
-      {/* <div className="item-navbar">
+      <div className="item-navbar">
         <Navbar />
       </div>
-      <div className="item-achievements"><Achievements goals={Data.achievements} /></div>
+      <div className="item-achievements">
+        <Achievements goals={Data.achievements} />
+      </div>
       <div className="item-graph">
         <UserGraph activity={Data.activity} />
-        </div> */}
+      </div>
       <div className="item-footer"></div>
     </div>
   );

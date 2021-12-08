@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from './Card.js';
 
-function SectionGoals({ goals }) {
+const SectionGoals = ({ goals }) => {
   return (
     <div>
       <div className="goals-container goals-container--cards">
-        {goals.map((goal, index) => (
+        {
+          goals.map((goal, index) => (
           <Card
             title={goal.title}
             img={goal.img}
@@ -14,7 +15,8 @@ function SectionGoals({ goals }) {
             date={goal.date}
             key={index}
           />
-        ))}
+          ))
+        }
       </div>
     </div>
   );

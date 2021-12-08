@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Alert(params) {
+const Alert= (params) => {
     const deleteAlert = (e) => {
         if (e.target && e.target.tagName === 'DIV') {
             e.target.style.display = 'none';
@@ -13,7 +13,7 @@ function Alert(params) {
                 {/* <i className="far fa-times-circle"></i> */}
             </div>
         </div>
-    )
+    );
 }
 
 export default Alert;
