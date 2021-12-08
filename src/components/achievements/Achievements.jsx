@@ -6,7 +6,8 @@ import Alert from '../../utils/Alert';
 const Achievements = ({ goals }) => {
   if (goals) {
     return (
-      <main className="main">
+      <div className="item-achievements">
+        <main className="main">
         <section className="goals-wrapper">
           <h1 className="goals-wrapper__title">Achievements</h1>
           <div className="goals-container">
@@ -16,6 +17,7 @@ const Achievements = ({ goals }) => {
           </div>
         </section>
       </main>
+      </div>
     )
   }
   else {

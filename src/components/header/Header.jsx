@@ -10,7 +10,8 @@ import Avatar from '../../icons/Avatar.png'
 
 const Header = () => {
   return (
-    <header className='header'>
+    <div className="item-header">
+      <header className='header'>
       <div className='header-logo'>
         <a href='$'>
           <img src={Logo} alt='Logo de la pagina' />
@@ -28,6 +29,7 @@ const Header = () => {
         <a href='#'><img src={Avatar} alt='' /></a>
       </div>
     </header>
+    </div>
   )
 }
 
