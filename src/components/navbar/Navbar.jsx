@@ -5,15 +5,15 @@ import Forum from '../../icons/forum.svg'
 import Challanges from '../../icons/challenges.svg'
 import Tasks from '../../icons/Tasks.svg'
 import Profile from '../../icons/profile.svg'
-import data from '../../../data.json'
+import datos from '../../../data.json'
 
-const { name } = data
+const { data } = datos;
 
 const NavBar = () => {
   return (
     <aside className='navBar'>
       <div className='navBar-user'>
-        <a href='#'>{name}</a>
+        <a href='#'> { data.name } </a>
         <img src={Avatar} alt='' />
       </div>
       <div className='navBar-menu'>
