@@ -36,11 +36,7 @@ $colorHover: rgba(85, 91, 255, 0.79);
 
 
 //Components Styles:
-
-@import '../components/systempoint/System.scss';
+@import '../components/container/Container';
 @import '../components/header/Header.scss';
-@import '../components/navbar/Navbar.scss';
-@import '../components/container/Container.scss';
-@import '../components/StreakAndRank/StreakAndRank.scss';
-@import '../components/user-graph/user-graph.scss';
-@import '../components/achievements/Achievements.scss';
+@import '../components/codeView/codeView.scss';
+@import '../components/info/info.scss';
