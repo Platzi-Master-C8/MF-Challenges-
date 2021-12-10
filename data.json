@@ -1,7 +1,7 @@
 {
   "data": {
     "id": 1,
-    "name": "Carlos Meneses",
+    "name": "Daniel Sanchez",
     "points": 99,
     "challenges": {
       "completed": 99,
@@ -54,7 +54,7 @@
     "activity": [
       {
         "day": "2021-12-06",
-        "points": 5
+        "points": 3
       },
       {
         "day": "2021-12-07",
