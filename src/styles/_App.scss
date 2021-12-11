@@ -36,7 +36,17 @@ $colorHover: rgba(85, 91, 255, 0.79);
 
 
 //Components Styles:
+@import '../components/achievements/Achievements';
 @import '../components/container/Container';
+@import '../components/navbar/Navbar';
+@import '../components/StreakAndRank/StreakAndRank.scss';
+@import '../components/systempoint/System';
+@import '../components/user-graph/user-graph.scss';
 @import '../components/header/Header.scss';
+
+
+
+//Styles PlayGround
+@import '../components/container/ContainerPG';
 @import '../components/codeView/codeView.scss';
 @import '../components/info/info.scss';

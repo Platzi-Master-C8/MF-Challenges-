@@ -7,15 +7,16 @@ import Logo4 from '../../icons/section4.svg'
 import Logo5 from '../../icons/section5.svg'
 import Logo6 from '../../icons/section6.svg'
 import Avatar from '../../icons/Avatar.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <div className="item-header">
       <header className='header'>
       <div className='header-logo'>
-        <a href='$'>
+        <Link to='/'>
           <img src={Logo} alt='Logo de la pagina' />
-        </a>
+        </Link>
       </div>
       <nav className='header-navBar'>
         <a href='#'><img src={Logo1} alt='' />Mensajes</a>

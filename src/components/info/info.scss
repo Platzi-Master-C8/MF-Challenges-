@@ -1,0 +1,72 @@
+.item-info {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: flex-start;
+  border: 1px solid rgb(12, 11, 11);
+  font-family: 'Mulish', sans-serif;
+  & p {
+    height: 100px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 18px;
+  }
+  & div {
+    height: 100%;
+  }
+  &_title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: $gradientePrincipal;
+    font-size: 34px;
+    color: white;
+  }
+  &_button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    &-run {
+      color: $colorIcon;
+      background-color: white;
+      border-radius: 20px;
+      border: 1px solid $colorIcon;
+      &:hover {
+        color: white;
+        background-color: $colorIcon;
+        border: 0.5px solid $colorHover;
+        box-shadow: 0px 2px 2px 0px black;
+      }
+    }
+    &-submit {
+      color: white;
+      background: $gradientePrincipal;
+      border-radius: 20px;
+      border: 1px solid $colorIcon;
+      &:hover {
+        color: $colorIcon;
+        background: white;
+        border: 0.5px solid $colorHover;
+        box-shadow: 0px 2px 2px 0px black;
+      }
+    }
+    & button {
+    height: 35px;
+    width: 130px;
+
+    }
+  }
+}
+h2 {
+  border-bottom: 2px solid $colorHover;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}

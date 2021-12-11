@@ -1,9 +1,9 @@
 {
-  "Reto": {
-    "name": "logico 1",
+  "reto": {
+    "title": "logico 1",
     "instructions": "The classical introductory exercise. Just say Hello, World!.Hello, World! is the traditional first program for beginning programming in a new language or environment.",
-    "Objectives": "Write a function that returns the string Hello, World!. Run the test suite and make sure that it succeeds. Submit your solution and check it at the website. If everything goes well, you will be ready to fetch your first real exercise.",
-    "Debug": "When a test fails, a message is displayed describing what went wrong and for which input. You can also use the fact that any console output will be shown too. You can write to the console using:",
+    "objectives": "Write a function that returns the string Hello, World!. Run the test suite and make sure that it succeeds. Submit your solution and check it at the website. If everything goes well, you will be ready to fetch your first real exercise.",
+    "debug": "When a test fails, a message is displayed describing what went wrong and for which input. You can also use the fact that any console output will be shown too. You can write to the console using:  'Console.log('Debug Message')'",
     "solved": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, .",
     "error": {
       "errorMsj": "Test Suite Failed to Run",

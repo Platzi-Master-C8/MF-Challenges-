@@ -6,7 +6,7 @@ import Info from '../src/components/info/Info';
 const PlayGround = () => {
 
   return (
-    <div className="grid-container">
+    <div className="grid-containerPG">
       <Header />
       <CodeView />
       <Info/>
