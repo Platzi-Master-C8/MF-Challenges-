@@ -20,8 +20,8 @@ const Info = () => {
         <p>{reto.debug}</p>
       </div>
       <div className="item-info_button">
-        <button className="item-info_button-run" >Run Test</button>
-        <button className="item-info_button-submit">Submit</button>
+        <button className="item-info_button-run" onClick={() => alert('Running Challenge... ')}  >Running Challenge</button>
+        <button className="item-info_button-submit" onClick={() => alert('Sending request ...')}>Submit</button>
       </div>
     </div>
   )
