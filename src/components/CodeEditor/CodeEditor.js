@@ -15,7 +15,7 @@ function CodeEditor () {
   <>
     <p className='solution_header'>Solution: </p>
       <Editor
-        height='800px'
+        height='1200px'
         width='950px'
         defaultLanguage='javascript'
         defaultValue={content}
