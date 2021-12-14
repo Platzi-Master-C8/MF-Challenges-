@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../src/components/header/Header';
-import CodeView from '../src/components/codeView/CodeView';
+import CodeEditor from '../src/components/CodeEditor/CodeEditor';
 import Info from '../src/components/info/Info';
 
 const PlayGround = () => {
@@ -8,9 +8,8 @@ const PlayGround = () => {
   return (
     <div className="grid-containerPG">
       <Header />
-      <CodeView />
+      <div className="item-codeView"><CodeEditor /></div>
       <Info/>
-      <div className="item-footer"></div>
     </div>
   );
 };

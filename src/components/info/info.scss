@@ -12,6 +12,7 @@
     padding-right: 10px;
     text-align: justify;
     font-size: 18px;
+    margin-bottom: 25px;
   }
   & div {
     height: 100%;
@@ -58,15 +59,28 @@
     }
     & button {
     height: 35px;
-    width: 130px;
+    width: 145px;
 
     }
   }
 }
-h2 {
+.item-instructions_title {
   border-bottom: 2px solid $colorHover;
   padding-top: 10px;
   padding-bottom: 20px;
   font-size: 28px;
   text-align: center;
+  margin: 30px 0;
+}
+.item-objectives_title {
+  border-bottom: 2px solid $colorHover;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+  margin: 30px 0;
+}
+.run-challenge-icon{
+  float: right;
+  margin: 0 10px 0 0 ;
 }

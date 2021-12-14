@@ -6,21 +6,25 @@ import StreakAndRank from '../StreakAndRank/StreakAndRank';
 import UserGraph from '../user-graph/user-graph';
 import Achievements from '../achievements/Achievements';
 import useGetData from '../../hooks/useGetData';
+import PlayGround from '../../../pages/PlayGround'
 
 
 const API = 'http://localhost:3500/data';
 const Container = () => {
   const Data = useGetData(API);
   return (
-    <div className="grid-container">
+    <><div className="grid-container">
       <Header />
       <Navbar />
       <StreakAndRank ranks={Data.ranks} challenges={Data.challenges} />
       <System data={Data} ranks={Data.ranks} />
       <Achievements goals={Data.achievements} />
       <UserGraph activity={Data.activity} />
-      <div className="item-footer"></div>
     </div>
+    <div>
+      <div><PlayGround />
+      </div>
+    </div></>
   );
 };
 export default Container;
