@@ -9,11 +9,11 @@ const Info = () => {
     <div className="item-info">
       <h1 className = "item-info_title" >{reto.title}</h1>
       <div>
-        <h2>Instructions</h2>
+        <h2 className ="item-instructions_title">Instructions</h2>
         <p>{reto.instructions}</p>
       </div>
       <div>
-        <h2>Objetives</h2>
+        <h2 className ="item-objectives_title">Objetives</h2>
         <p>{reto.objectives}</p>
       </div>
       <div className="item-info_button">
