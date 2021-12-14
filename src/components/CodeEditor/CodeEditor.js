@@ -3,7 +3,7 @@ import Editor from '@monaco-editor/react'
 import './CodeEditor.scss'
 
 function CodeEditor () {
-  const [ content, setContent ] = useState('// Start writing your code here...')
+  const [ content, setContent ] = useState('// Start writing your code here ...')
 
   const editorRef = useRef(null)
 

@@ -1,5 +1,6 @@
 import React from "react";
 import datos from '../../../dataCode.json'
+import Coolicon from '../../icons/Coolicon.svg'
 
 const { reto } = datos;
 
@@ -15,13 +16,12 @@ const Info = () => {
         <h2>Objetives</h2>
         <p>{reto.objectives}</p>
       </div>
-      <div>
-        <h2>Debug</h2>
-        <p>{reto.debug}</p>
-      </div>
       <div className="item-info_button">
-        <button className="item-info_button-run" onClick={() => alert('Running Challenge... ')}  >Running Challenge</button>
-        <button className="item-info_button-submit" onClick={() => alert('Sending request ...')}>Submit</button>
+        <button className="item-info_button-run" onClick={() => alert('Running Challenge ... ')} >
+          Run Challenge 
+          <img className="run-challenge-icon" id='img-icon' src={Coolicon} alt='Run Challenge' />
+        </button>
+        <button className="item-info_button-submit" onClick={() => alert('Sending Challenge ...')}>Submit</button>
       </div>
     </div>
   )
