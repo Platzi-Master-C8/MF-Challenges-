@@ -7,11 +7,10 @@ import UserGraph from '../user-graph/user-graph';
 import Achievements from '../achievements/Achievements';
 import useGetData from '../../hooks/useGetData';
 
-const API = 'http://localhost:3500/data';
 
+const API = 'http://localhost:3500/data';
 const Container = () => {
   const Data = useGetData(API);
-
   return (
     <div className="grid-container">
       <Header />
@@ -24,5 +23,4 @@ const Container = () => {
     </div>
   );
 };
-
 export default Container;

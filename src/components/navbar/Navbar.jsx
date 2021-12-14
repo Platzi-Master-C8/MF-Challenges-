@@ -7,6 +7,8 @@ import Tasks from '../../icons/Tasks.svg'
 import Profile from '../../icons/profile.svg'
 import datos from '../../../data.json'
 
+import { Link } from 'react-router-dom'
+
 
 const { data } = datos;
 
@@ -28,8 +30,10 @@ const NavBar = () => {
           <li>
             <a href='#'><img id='img-icon' src={Forum} alt='' /><p className='navBar-menu__text'>Foro</p></a>
           </li>
-          <li>
-            <a href='#'><img id='img-icon' src={Challanges} alt='' /><p className='navBar-menu__text'>Desafios</p></a>
+            <li>
+              <Link to='/editor'>
+                <img id='img-icon' src={Challanges} alt='' /><p className='navBar-menu__text'>Desafios</p>
+              </Link>
           </li>
           <li>
             <a href='#'><img id='img-icon' src={Tasks} alt='' /><p className='navBar-menu__text'>Tareas</p></a>
