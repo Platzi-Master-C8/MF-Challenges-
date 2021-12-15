@@ -10,11 +10,11 @@ const System = ({ data, ranks }) => {
           <div className="first-circle">
             <p>{dataP}</p>
           </div>
-          <p>Points</p>
+          <p>Puntos Obtenidos</p>
           <div className="second-circle">
             <p>{ranks[1].required_points}</p>
           </div>
-          <p>Next Rank</p>
+          <p>Siguiente rango</p>
         </div>
       </div>
     );

@@ -12,18 +12,19 @@ function CodeEditor () {
   }
 
   return (
-  <>
-    <p className='solution_header'>Solution: </p>
-      <Editor
-        height='1200px'
-        width='950px'
+    <div className="item-codeView">
+      <p className='solution_header'>Solucion: </p>
+        <Editor
+        height='870px'
+        /* width='950px' */
         defaultLanguage='javascript'
         defaultValue={content}
         theme='vs-dark'
         onChange={(value) => setContent(value)}
-        onMount={handleEditor} />
-  </>
- )
+        onMount={handleEditor}
+      />
+    </div>
+  )
 }
 
 export default CodeEditor

@@ -53,8 +53,8 @@
   }
   
   .card-container{
-    height: 80px;
-    width: 320px;
+    height: 120px;
+    width: 380px;
     border-radius: 5px;
     display: flex;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -84,6 +84,7 @@
     width: 220px;
     padding: 5px 8px;
     text-align: left;
+    font-size: 18px;
   }
   
   .card-title {
@@ -98,4 +99,6 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-size: 14px;
+
   }

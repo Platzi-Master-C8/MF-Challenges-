@@ -8,7 +8,7 @@ function Card({title, img, description, completed, date}) {
                 <section className='card-text'>
                     <h3 className='card-title'>{title}</h3>
                     {
-                        completed ? <p className='card-description'>Completed in {date}!</p>
+                        completed ? <p className='card-description'>Completado el {date}!</p>
                             :
                             <p className='card-description'>{description}</p>
                     }

@@ -24,6 +24,10 @@
     justify-items: center;
     align-items: center;
     font-size: 14px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 1px;
     &:hover {
       background: $gradientePrincipal;
       color: white;

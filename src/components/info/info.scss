@@ -1,6 +1,6 @@
 .item-info {
   display: grid;
-  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 30% 30% 30%;
   justify-items: center;
   align-items: flex-start;
   border: 1px solid rgb(12, 11, 11);
@@ -13,6 +13,7 @@
     text-align: justify;
     font-size: 18px;
     margin-bottom: 25px;
+    line-height: 40px;
   }
   & div {
     height: 100%;
@@ -38,6 +39,7 @@
       background-color: white;
       border-radius: 20px;
       border: 1px solid $colorIcon;
+      padding-top: 3px;
       &:hover {
         color: white;
         background-color: $colorIcon;
@@ -70,7 +72,6 @@
   padding-bottom: 20px;
   font-size: 28px;
   text-align: center;
-  margin: 30px 0;
 }
 .item-objectives_title {
   border-bottom: 2px solid $colorHover;

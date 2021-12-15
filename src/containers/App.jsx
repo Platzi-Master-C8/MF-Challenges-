@@ -1,6 +1,7 @@
 import React from 'react'
-import Container from '../components/container/Container'
+/* import Container from '../../pages/Profile' */
+import Home from '../components/container/Home'
 
-const App = () =><Container />
+const App = () =><Home />
 
 export default App

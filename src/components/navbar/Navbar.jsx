@@ -39,7 +39,9 @@ const NavBar = () => {
             <a href='#'><img id='img-icon' src={Tasks} alt='' /><p className='navBar-menu__text'>Tareas</p></a>
           </li>
           <li>
-            <a href='#'><img id='img-icon' src={Profile} alt='' /><p className='navBar-menu__text'>Perfil</p></a>
+            <Link to='/profile'>
+              <img id='img-icon' src={Profile} alt='' /><p className='navBar-menu__text'>Perfil</p>
+            </Link>
           </li>
         </ul>
       </div>

@@ -12,19 +12,19 @@ const StreakAndRank = ({ ranks, challenges }) => {
         <div className="step__container">
           <img className="rank_icon" src={rankLogo} />
           <p className="rank_value">{ranks ? ranks[1].next : []}</p>
-          <p className="rank_button">Rank</p>
+          <p className="rank_button">Rango</p>
         </div>
 
         <div className="step__container">
           <img className="done_icon" src={doneLogo} />
           <p className="done_value">{challenges ? challenges.completed : []}</p>
-          <p className="done_button">Done</p>
+          <p className="done_button">Completados</p>
         </div>
 
         <div className="step__container">
           <img className="streak_icon" src={streakLogo} />
           <p className="streak_value">{challenges ? challenges.streak : []}</p>
-          <p className="streak_button">Current streak</p>
+          <p className="streak_button">Racha actual</p>
         </div>
       </div>
     </div>

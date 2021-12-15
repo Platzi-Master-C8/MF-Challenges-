@@ -8,8 +8,9 @@ const PlayGround = () => {
   return (
     <div className="grid-containerPG">
       <Header />
-      <div className="item-codeView"><CodeEditor /></div>
-      <Info/>
+      <CodeEditor/>
+      <Info />
+      <div className='item-footer'></div>
     </div>
   );
 };

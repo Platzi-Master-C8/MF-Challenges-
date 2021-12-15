@@ -9,7 +9,7 @@ const Achievements = ({ goals }) => {
       <div className="item-achievements">
         <main className="main">
         <section className="goals-wrapper">
-          <h1 className="goals-wrapper__title">Achievements</h1>
+          <h1 className="goals-wrapper__title">Logros</h1>
           <div className="goals-container">
             {
               (goals.length) === 0 ? <Alert /> : <SectionGoals goals={goals} />
